@@ -21,8 +21,9 @@ Follow these steps to use the script:
 * Open a terminal and navigate to the project directory.
 * Start the Server:
 `python Server.py`
-*Open another terminal and navigate to the project directory.
-*Start the client:
+
+* Open another terminal and navigate to the project directory.
+* Start the client:
 `python Client.py`
 
 
