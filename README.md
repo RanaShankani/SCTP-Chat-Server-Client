@@ -8,7 +8,7 @@ Follow these steps to use the script:
 * Ensure that you have Python installed on your machine.
 * On Debian-based systems, you need a SCTP-aware kernel (most are) and install the following packages:
 
-`apt-get install libsctp-dev libsctp1 lksctp-tools`
+  `apt-get install libsctp-dev libsctp1 lksctp-tools`
 
 ### 2. Clone the repository:
 
