@@ -6,9 +6,9 @@ This is a simple server-client chat application using SCTP (Stream Control Trans
 Follow these steps to use the script:
 ### 1. Prerequisites:
 * Ensure that you have Python installed on your machine.
-* Install the required dependencies:
+* On Debian-based systems, you need a SCTP-aware kernel (most are) and install the following packages:
 
-`pip install pysctp`
+`apt-get install libsctp-dev libsctp1 lksctp-tools`
 
 ### 2. Clone the repository:
 
@@ -28,7 +28,7 @@ Follow these steps to use the script:
 
 
 ### 4. Run the script:
-*The server and client will establish a connection, and you can start chatting between the client and server by entering messages in the respective terminals.
+*The server and client will establish a connection, and you can start chatting between the client and server by entering messages in terminals.
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
